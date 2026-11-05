@@ -234,3 +234,8 @@
   });
 </script>
 {% if page.permalink == '/' or page.permalink == '/es/' %}<script type="module" src="{{ base_path }}/assets/js/world-map.js"></script>{% endif %}
+<style>
+  #about .home-card, #about .home-card p { color: var(--ink) !important; }
+  #about .home-card strong { color: inherit !important; }
+  html[data-theme="dark"] #about .home-card, html[data-theme="dark"] #about .home-card p { color: #e6edf5 !important; }
+</style>
