@@ -23,7 +23,7 @@ repository               : "haradaoyakawahideki/haradaoyakawahideki.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "hideki.jpg"
   name             : "Hideki Harada"
   pronouns         : # example: "she/her"  
   bio              : "Political scientist · Education & public policy"
