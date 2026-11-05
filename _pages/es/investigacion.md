@@ -16,6 +16,10 @@ Analizo cómo partidos políticos e intereses privados capturaron instituciones 
 
 *Disponible a solicitud en la biblioteca de Davidson College.*
 
+## Informes
+
+- **Caracterización de oradores en torneos escolares 2025: participación, desempeño y estructura del circuito** (2026). Liga Peruana de Debate Escolar. Luis Valverde, Felipe Zenteno y Hideki Harada. Informe de 15 páginas publicado como documento en la [página de LinkedIn de la LPDE](https://www.linkedin.com/company/lpdebate/).
+
 ## Investigación aplicada
 
 - **El debate escolar en el Perú (2025).** Equipo de investigación de la Liga Peruana de Debate Escolar (LPDE). Analizamos 1,447 participaciones en 16 torneos escolares. La participación femenina es alta y el rendimiento es igual entre géneros, con una fuerte concentración de colegios privados. Cuando acceden, los estudiantes de colegios públicos compiten al mismo nivel. Con Luis Valverde y Felipe Zenteno.

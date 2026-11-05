@@ -15,7 +15,7 @@ Proyectos de datos sobre pobreza, desigualdad y opinión pública en el Perú, h
     <h3>La pobreza en el Perú tiene cara de niño</h3>
     <p><strong>Pregunta:</strong> ¿Cómo se distribuye la pobreza monetaria por grupo de edad en el Perú?</p>
     <p><strong>Resultado:</strong> El 36.5 % de los menores de 18 años es pobre, frente al 23.9 % de los adultos. Son el 28.8 % de la población, pero el 38.1 % de los pobres (ENAHO 2024, IC 95 %).</p>
-    <p><a href="https://github.com/haradaoyakawahideki/pobreza-infantil-peru">Repo</a> · <a href="https://haradaoyakawahideki.github.io/pobreza-infantil-peru/web/">Dashboard</a> · <a href="https://github.com/haradaoyakawahideki/pobreza-infantil-peru/blob/main/reel/reel.mp4">Video</a></p>
+    <p><a href="https://github.com/haradaoyakawahideki/pobreza-infantil-peru">Repo</a> · <a href="https://haradaoyakawahideki.github.io/pobreza-infantil-peru/web/">Dashboard</a> · <a href="https://github.com/haradaoyakawahideki/pobreza-infantil-peru/blob/main/reel/reel.mp4">Video</a> <small>(narración generada con IA a partir de mi propia voz)</small></p>
   </div>
 </div>
 

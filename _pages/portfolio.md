@@ -15,7 +15,7 @@ Data projects on poverty, inequality and public opinion in Peru, built with Pyth
     <h3>In Peru, poverty has a child's face</h3>
     <p><strong>Question:</strong> How is monetary poverty distributed across age groups in Peru?</p>
     <p><strong>Result:</strong> 36.5% of children under 18 are poor, versus 23.9% of adults. Children are 28.8% of the population but 38.1% of the poor (ENAHO 2024, 95% CIs).</p>
-    <p><a href="https://github.com/haradaoyakawahideki/pobreza-infantil-peru">Repo</a> · <a href="https://haradaoyakawahideki.github.io/pobreza-infantil-peru/web/">Dashboard</a> · <a href="https://github.com/haradaoyakawahideki/pobreza-infantil-peru/blob/main/reel/reel.mp4">Video</a></p>
+    <p><a href="https://github.com/haradaoyakawahideki/pobreza-infantil-peru">Repo</a> · <a href="https://haradaoyakawahideki.github.io/pobreza-infantil-peru/web/">Dashboard</a> · <a href="https://github.com/haradaoyakawahideki/pobreza-infantil-peru/blob/main/reel/reel.mp4">Video</a> <small>(narration generated with AI from my own voice)</small></p>
   </div>
 </div>
 
