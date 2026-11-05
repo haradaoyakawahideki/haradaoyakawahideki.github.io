@@ -195,3 +195,5 @@ html[data-theme="dark"] .slide--research .block--1 > p:first-of-type > strong:fi
 .slide--cv .block p{margin:.75rem 0 .15rem} .slide--cv .block p:first-of-type{margin-top:0}
 .slide--cv .block ul{margin:.1rem 0 .4rem; padding-left:1.1rem}
 @media (max-width:900px){ .slide--research .has-blocks,.slide--cv .has-blocks{grid-template-columns:1fr} .slide--cv .block--2,.slide--cv .block--1,.slide--cv .block--3,.slide--cv .block--4{grid-column:1; grid-row:auto} .slide--research .block--1{grid-row:auto} .hero__photo{margin-top:0} }
+
+@media (max-width:900px){ .hero__photo{max-width:140px !important; margin-top:0 !important; border-radius:50%} .slide--about h1{font-size:2.4rem} }
