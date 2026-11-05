@@ -1,25 +1,37 @@
-{% include base_path %}
-
-<!-- start custom head snippets -->
-
-<!-- Support for jQuery, this needs to be first so that it has a chance to load. -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-
-<!-- Support for Academicons -->
-<link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
-
-<!-- Support for Font Awesome -->
- <link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css"></noscript>
-
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
-<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="var(--global-bg-color)"/>
-
-<!-- end custom head snippets -->
+<!-- Language: Spanish for Spanish-language browsers, English otherwise.
+     Runs only on a visitor's first page view; a click on ES/EN is remembered. -->
+<script>
+(function () {
+  try {
+    var KEY = 'site-lang';
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[data-lang]');
+      if (a) localStorage.setItem(KEY, a.getAttribute('data-lang'));
+    });
+    if (localStorage.getItem(KEY)) return;
+    var path = location.pathname;
+    if (path !== '/' && path !== '/index.html') return;
+    var langs = navigator.languages || [navigator.language || ''];
+    if ((langs[0] || '').toLowerCase().indexOf('es') === 0) {
+      localStorage.setItem(KEY, 'es');
+      location.replace('/es/');
+    }
+  } catch (err) {}
+})();
+</script>
+{% if page.alt_url %}
+<link rel="alternate" hreflang="{% if page.lang == 'es' %}en{% else %}es{% endif %}" href="{{ site.url }}{{ page.alt_url }}">
+{% endif %}
+<style>
+  .lang-switch { font-weight: 600; }
+  .lang-switch .lang-current { opacity: .55; }
+  .project-card { display:flex; gap:1.2em; border:1px solid rgba(127,127,127,.25); border-radius:8px; padding:1em; margin:0 0 1.4em; }
+  .project-card img { width:180px; height:auto; object-fit:contain; border-radius:4px; flex-shrink:0; }
+  .project-card h3 { margin-top:0; }
+  .project-card .kicker { font-size:.72em; letter-spacing:.08em; text-transform:uppercase; opacity:.7; margin:0; }
+  .project-card p { margin:.4em 0; font-size:.92em; }
+  @media (max-width: 600px) {
+    .project-card { flex-direction:column; }
+    .project-card img { width:100%; max-height:260px; }
+  }
+</style>
