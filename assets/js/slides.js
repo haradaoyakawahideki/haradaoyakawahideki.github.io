@@ -28,7 +28,7 @@
       if (n.nodeType === 1 && n.tagName === 'H3') { cur = document.createElement('div'); cur.className = 'block'; out.push(cur); }
       (cur || lead).appendChild(n);
     });
-    if (lead.childNodes.length) body.appendChild(lead);
+    if (lead.textContent.trim()) body.appendChild(lead);
     out.forEach(function (b, i) { b.classList.add('block--' + (i + 1)); body.appendChild(b); });
     body.classList.add('has-blocks');
   }
