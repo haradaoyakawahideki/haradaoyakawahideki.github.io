@@ -94,3 +94,21 @@
 - id: "616"
   type: visited
   name: { en: "Poland", es: "Polonia" }
+- id: "348"
+  type: visited
+  name: { en: "Hungary", es: "Hungría" }
+- id: "528"
+  type: visited
+  name: { en: "Netherlands", es: "Países Bajos" }
+- id: "040"
+  type: visited
+  name: { en: "Austria", es: "Austria" }
+- id: "756"
+  type: visited
+  name: { en: "Switzerland", es: "Suiza" }
+- id: "703"
+  type: visited
+  name: { en: "Slovakia", es: "Eslovaquia" }
+- id: "470"
+  type: visited
+  name: { en: "Malta", es: "Malta" }
