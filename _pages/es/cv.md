@@ -6,7 +6,8 @@ alt_url: /cv/
 author_profile: true
 ---
 
-<a class="btn btn--primary" href="/files/CV_Hideki_Harada_ES.pdf">Descargar CV (PDF)</a> <a class="btn btn--inverse" href="/files/CV_Hideki_Harada_EN.pdf">CV in English (PDF)</a>
+<a class="btn btn--primary" href="/files/CV_Hideki_Harada_ES.pdf">PDF</a> <a class="btn btn--inverse" href="/files/CV_Hideki_Harada_ES.docx">Word</a> <a class="btn btn--inverse" href="/files/CV_Hideki_Harada_ES.tex">LaTeX</a>
+<small>CV in English: <a href="/files/CV_Hideki_Harada_EN.pdf">PDF</a> · <a href="/files/CV_Hideki_Harada_EN.docx">Word</a> · <a href="/files/CV_Hideki_Harada_EN.tex">LaTeX</a></small>
 
 ## Educación
 

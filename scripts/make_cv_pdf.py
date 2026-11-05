@@ -22,6 +22,7 @@ for lang, src in [("en", "_pages/cv.md"), ("es", "_pages/es/cv.md")]:
     md = (ROOT / src).read_text()
     md = re.sub(r"^---.*?---\s*", "", md, flags=re.S)
     md = re.sub(r"\{%.*?%\}", "", md)
+    md = re.sub(r"(?m)^<(a|small)[^\n]*\n", "", md)  # drop download buttons/links
     md = re.sub(r"(?m)^  - ", "    - ", md)                 # nested bullets need 4 spaces
     md = re.sub(r"(?m)^([^\s-][^\n]*)\n(- )", r"\1\n\n\2", md)  # blank line before a list
     body = markdown.markdown(md)
