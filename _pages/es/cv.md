@@ -21,8 +21,8 @@ author_profile: true
 
 **Oficial Nacional de Selección**, Comité Nacional de UWC Perú · Remoto · oct. 2025 – actualidad
 - Lidero y mejoro continuamente las cinco etapas del proceso nacional de selección de becarios.
-- Convocatoria 2026: más de 1,530 postulaciones de todas las regiones del Perú.
-- Convocatoria 2025: más de 600 postulaciones y más de 60 evaluadores voluntarios reclutados, capacitados y supervisados. El proceso resultó en 6 becas, 5 de ellas con financiamiento completo.
+- Convocatoria 2027: más de 1,530 postulaciones de todas las regiones del Perú.
+- Convocatoria 2026: más de 600 postulaciones y más de 60 evaluadores voluntarios reclutados, capacitados y supervisados. El proceso resultó en 6 becas, 5 de ellas con financiamiento completo.
 
 **Asistente de Investigación**, Departamento de Ciencia Política, Davidson College · may. – dic. 2025
 

@@ -23,8 +23,8 @@ redirect_from:
 
 **National Selection Officer**, UWC Peru National Committee · Remote · Oct 2025 – present
 - Lead and continuously improve the five-stage national scholarship selection process.
-- 2026 cycle: 1,530+ applications from every region of Peru.
-- 2025 cycle: 600+ applications and 60+ volunteer evaluators recruited, trained and supervised. The cycle resulted in 6 scholarships, 5 of them fully funded.
+- 2027 cycle: 1,530+ applications from every region of Peru.
+- 2026 cycle: 600+ applications and 60+ volunteer evaluators recruited, trained and supervised. The cycle resulted in 6 scholarships, 5 of them fully funded.
 
 **Research Assistant**, Political Science Dept., Davidson College · May – Dec 2025
 
