@@ -41,3 +41,9 @@ Data projects on poverty, inequality and public opinion in Peru, built with Pyth
   </div>
 </div>
 
+## Live demo: child poverty dashboard
+
+<div style="position:relative;width:100%;padding-top:75%;border:1px solid var(--line);border-radius:8px;overflow:hidden">
+<iframe src="https://haradaoyakawahideki.github.io/pobreza-infantil-peru/web/" title="Child poverty in Peru dashboard (ENAHO 2024)" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;border:0"></iframe>
+</div>
+<p><small>Interactive dashboard in Spanish (ENAHO 2024). <a href="https://haradaoyakawahideki.github.io/pobreza-infantil-peru/web/">Open full screen →</a></small></p>

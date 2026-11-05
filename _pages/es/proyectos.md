@@ -41,3 +41,9 @@ Proyectos de datos sobre pobreza, desigualdad y opinión pública en el Perú, h
   </div>
 </div>
 
+## Demo en vivo: dashboard de pobreza infantil
+
+<div style="position:relative;width:100%;padding-top:75%;border:1px solid var(--line);border-radius:8px;overflow:hidden">
+<iframe src="https://haradaoyakawahideki.github.io/pobreza-infantil-peru/web/" title="Dashboard de pobreza infantil en el Perú (ENAHO 2024)" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;border:0"></iframe>
+</div>
+<p><small>Dashboard interactivo (ENAHO 2024). <a href="https://haradaoyakawahideki.github.io/pobreza-infantil-peru/web/">Abrir en pantalla completa →</a></small></p>
