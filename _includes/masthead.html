@@ -8,6 +8,10 @@
           <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
             <a href="{{ base_path }}{% if page.lang == 'es' %}/es/{% else %}/{% endif %}">{{ site.title }}</a>
           </li>
+          <li class="masthead__menu-item persist lang-switch">
+            {% if page.lang == "es" %}<span class="lang-current">ES</span> | <a href="{{ base_path }}{{ page.alt_url | default: '/' }}" hreflang="en" data-lang="en">EN</a>
+            {% else %}<a href="{{ base_path }}{{ page.alt_url | default: '/es/' }}" hreflang="es" data-lang="es">ES</a> | <span class="lang-current">EN</span>{% endif %}
+          </li>
           {% if page.lang == "es" %}{% assign nav = site.data.navigation.es %}{% else %}{% assign nav = site.data.navigation.main %}{% endif %}
           {% for link in nav %}
             {% if link.url contains 'http' %}
@@ -19,10 +23,6 @@
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
-          <li class="masthead__menu-item persist tail lang-switch">
-            {% if page.lang == "es" %}<span class="lang-current">ES</span> | <a href="{{ base_path }}{{ page.alt_url | default: '/' }}" hreflang="en" data-lang="en">EN</a>
-            {% else %}<a href="{{ base_path }}{{ page.alt_url | default: '/es/' }}" hreflang="es" data-lang="es">ES</a> | <span class="lang-current">EN</span>{% endif %}
-          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>

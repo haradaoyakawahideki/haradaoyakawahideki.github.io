@@ -23,7 +23,7 @@
 <link rel="alternate" hreflang="{% if page.lang == 'es' %}en{% else %}es{% endif %}" href="{{ site.url }}{{ page.alt_url }}">
 {% endif %}
 <style>
-  .lang-switch { font-weight: 600; }
+  .lang-switch { font-weight: 600; white-space: nowrap; }
   .lang-switch .lang-current { opacity: .55; }
   .project-card { display:flex; gap:1.2em; border:1px solid rgba(127,127,127,.25); border-radius:8px; padding:1em; margin:0 0 1.4em; }
   .project-card img { width:180px; height:auto; object-fit:contain; border-radius:4px; flex-shrink:0; }
@@ -34,4 +34,8 @@
     .project-card { flex-direction:column; }
     .project-card img { width:100%; max-height:260px; }
   }
+</style>
+<style>
+  .masthead__menu-item--lg a { white-space: nowrap; }
+  @media (max-width: 600px) { .masthead__menu-item--lg { font-size: 1em; } }
 </style>
