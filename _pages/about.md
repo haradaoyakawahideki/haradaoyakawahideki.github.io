@@ -16,7 +16,7 @@ redirect_from:
 
 <section id="map" class="page-section">
 
-<h2 class="section-title">Where I have studied</h2>
+<h2 class="section-title">Where I have studied and traveled</h2>
 
 {% include sections/map.html lang="en" %}
 

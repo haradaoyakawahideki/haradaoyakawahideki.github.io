@@ -14,7 +14,7 @@ author_profile: true
 
 <section id="map" class="page-section">
 
-<h2 class="section-title">Dónde he estudiado</h2>
+<h2 class="section-title">Dónde he estudiado y viajado</h2>
 
 {% include sections/map.html lang="es" %}
 
