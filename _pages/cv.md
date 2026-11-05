@@ -8,6 +8,8 @@ redirect_from:
   - /resume
 ---
 
+<a class="btn btn--primary" href="/files/CV_Hideki_Harada_EN.pdf">Download CV (PDF)</a> <a class="btn btn--inverse" href="/files/CV_Hideki_Harada_ES.pdf">CV en español (PDF)</a>
+
 ## Education
 
 - **PUCP, Q-Lab, Faculty of Social Sciences.** Diploma in Data Science for the Social Sciences and Public Management, Aug 2026 – May 2027 (in progress)

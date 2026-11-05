@@ -6,6 +6,8 @@ alt_url: /cv/
 author_profile: true
 ---
 
+<a class="btn btn--primary" href="/files/CV_Hideki_Harada_ES.pdf">Descargar CV (PDF)</a> <a class="btn btn--inverse" href="/files/CV_Hideki_Harada_EN.pdf">CV in English (PDF)</a>
+
 ## Educación
 
 - **PUCP, Q-Lab, Facultad de Ciencias Sociales.** Diplomatura de Especialización en Ciencia de Datos para las Ciencias Sociales y la Gestión Pública, ago. 2026 – may. 2027 (en curso)
