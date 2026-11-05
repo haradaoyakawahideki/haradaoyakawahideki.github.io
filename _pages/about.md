@@ -18,7 +18,6 @@ I’m a political scientist from Peru working on **education access and public p
     <p class="more"><a href="/research/">Research →</a></p>
   </div>
 
-**Latest:** I coached team "Parque Nacional Huascarán", the 2026 world champion of the Spanish-language World Schools Debating Championship (MED) in Panama.
   <div class="home-card">
     <p class="kicker">Beca Cometa · since Jul 2026</p>
     <h3>Junior College Advisor</h3>
@@ -38,3 +37,5 @@ I’m a political scientist from Peru working on **education access and public p
     <p class="more"><a href="/portfolio/">See my projects →</a></p>
   </div>
 </div>
+
+**Latest:** I coached team "Parque Nacional Huascarán", the 2026 world champion of the Spanish-language World Schools Debating Championship (MED) in Panama.
