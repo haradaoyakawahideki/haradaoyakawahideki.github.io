@@ -1,7 +1,7 @@
 ### Tesis de licenciatura con honores
 
-**Capturing Democratic Institutions in Peru: When Parties and Businesses Merge into a Perverse Emporium**
-*(La captura de instituciones democráticas en el Perú: cuando partidos y negocios se combinan en un emporio perverso)*
+**Capturing Democratic Institutions in Peru: When Parties and Businesses Merge into a Perverse Emporium**<br>
+*(La captura de instituciones democráticas en el Perú: cuando partidos y negocios se combinan en un emporio perverso)*<br>
 Davidson College, 2025 · Supervisión: Dra. Katherine Bersch · *Altos Honores en Ciencia Política (otorgados en mayo de 2026)*
 
 Analizo cómo partidos políticos e intereses privados capturaron instituciones regulatorias en el Perú, con el Congreso y la reforma universitaria como caso central. Esa captura debilitó la supervisión y cambió los resultados de las políticas. El trabajo de campo en Lima incluyó **13 entrevistas semiestructuradas** con congresistas, trabajadores del Congreso, académicos y periodistas. Fue financiado por un **fondo de investigación de US$ 4,000** de Davidson College.

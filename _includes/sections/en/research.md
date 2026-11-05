@@ -1,6 +1,6 @@
 ### Undergraduate honors thesis
 
-**Capturing Democratic Institutions in Peru: When Parties and Businesses Merge into a Perverse Emporium**
+**Capturing Democratic Institutions in Peru: When Parties and Businesses Merge into a Perverse Emporium**<br>
 Davidson College, 2025 · Supervised by Dr. Katherine Bersch · *High Honors in Political Science (awarded May 2026)*
 
 I examine how political parties and private interests captured regulatory institutions in Peru, with Congress and higher-education reform as the central case. That capture weakened oversight and reshaped policy outcomes. The fieldwork in Lima included **13 semi-structured interviews** with members of Congress, congressional staff, scholars and journalists. It was funded by a **$4,000 Davidson Research Initiative grant**.
