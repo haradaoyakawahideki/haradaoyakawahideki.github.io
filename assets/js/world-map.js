@@ -63,8 +63,7 @@ if (root) {
   // Zoom: buttons + drag/pinch (wheel zoom only with Ctrl/⌘ so page scrolling still works)
   const zoom = d3.zoom().scaleExtent([1, 12]).translateExtent([[0, 0], [W, H]])
     .filter(ev => (ev.type === "wheel" ? ev.ctrlKey || ev.metaKey : !ev.button))
-    .on("zoom", ev => { g.attr("transform", ev.transform); g.selectAll(".country, .sphere").attr("stroke-width", 0.5 / ev.transform.k);
-                        g.select(".sas-route").attr("stroke-width", 1.6 / ev.transform.k); g.selectAll(".sas-port").attr("r", 2.6 / ev.transform.k); });
+    .on("zoom", ev => { g.attr("transform", ev.transform); g.selectAll(".sas-port").attr("r", 2.6 / ev.transform.k); });
   svg.call(zoom);
   root.querySelectorAll("[data-zoom]").forEach(b => b.addEventListener("click", () => {
     const z = b.dataset.zoom;
