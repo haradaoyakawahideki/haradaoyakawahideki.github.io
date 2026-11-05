@@ -12,6 +12,14 @@ author_profile: true
 
 </section>
 
+<section id="map" class="page-section">
+
+<h2 class="section-title">Dónde he estudiado</h2>
+
+{% include sections/map.html lang="es" %}
+
+</section>
+
 <section id="news" class="page-section" markdown="1">
 
 <h2 class="section-title">Noticias</h2>

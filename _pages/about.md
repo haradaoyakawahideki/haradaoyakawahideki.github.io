@@ -14,6 +14,14 @@ redirect_from:
 
 </section>
 
+<section id="map" class="page-section">
+
+<h2 class="section-title">Where I have studied</h2>
+
+{% include sections/map.html lang="en" %}
+
+</section>
+
 <section id="news" class="page-section" markdown="1">
 
 <h2 class="section-title">News</h2>

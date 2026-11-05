@@ -1,0 +1,28 @@
+# Countries on the map. id = ISO 3166 numeric code (as in world-atlas).
+# type: studied | visited. Studied countries get an info card.
+- id: "604"
+  type: studied
+  name: { en: "Peru", es: "Perú" }
+  items:
+    - { en: "Colegio Andino, Huancayo · Secondary school, 2013–2017", es: "Colegio Andino, Huancayo · Secundaria, 2013–2017" }
+    - { en: "PUCP Q-Lab, Lima · Diploma in Data Science for the Social Sciences and Public Management, 2026–2027", es: "PUCP Q-Lab, Lima · Diplomatura en Ciencia de Datos para las Ciencias Sociales y la Gestión Pública, 2026–2027" }
+- id: "826"
+  type: studied
+  name: { en: "United Kingdom", es: "Reino Unido" }
+  items:
+    - { en: "UWC Atlantic, Wales · International Baccalaureate Diploma, 2018–2020 (UWC Davis Scholar)", es: "UWC Atlantic, Gales · Bachillerato Internacional, 2018–2020 (becario UWC Davis)" }
+- id: "840"
+  type: studied
+  name: { en: "United States", es: "Estados Unidos" }
+  items:
+    - { en: "Davidson College, North Carolina · B.A. in Political Science and Gender Studies, 2021–2025, magna cum laude, High Honors", es: "Davidson College, Carolina del Norte · B.A. en Ciencia Política y Estudios de Género, 2021–2025, magna cum laude, Altos Honores" }
+    - { en: "Association for Diplomatic Studies and Training, Washington DC · Internship, 2023", es: "Association for Diplomatic Studies and Training, Washington DC · Pasantía, 2023" }
+- id: "250"
+  type: studied
+  name: { en: "France", es: "Francia" }
+  items:
+    - { en: "IES Paris · Study abroad semester, Fall 2023", es: "IES París · Semestre de intercambio, otoño 2023" }
+- id: "591"
+  type: visited
+  name: { en: "Panama", es: "Panamá" }
+  note: { en: "Coach at the 2026 Spanish-language World Schools Debating Championship (MED)", es: "Entrenador en el Mundial Escolar de Debate en Español (MED) 2026" }

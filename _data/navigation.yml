@@ -1,5 +1,7 @@
 # Header menu: links scroll to sections of the one-page site.
 main:
+  - title: "Map"
+    url: /#map
   - title: "News"
     url: /#news
   - title: "Research"
@@ -10,6 +12,8 @@ main:
     url: /#cv
 
 es:
+  - title: "Mapa"
+    url: /es/#map
   - title: "Noticias"
     url: /es/#news
   - title: "Investigación"
