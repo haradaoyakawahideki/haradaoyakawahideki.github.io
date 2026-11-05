@@ -26,6 +26,9 @@ redirect_from:
 - 2027 cycle: 1,530+ applications from every region of Peru.
 - 2026 cycle: 600+ applications and 60+ volunteer evaluators recruited, trained and supervised. The cycle resulted in 6 scholarships, 5 of them fully funded.
 
+**Debate Coach**, Peru's National School Debate Team (Selección Nacional de Debate Escolar, LPDE) · 2026
+- Coached team "Parque Nacional Huascarán", **world champion** at the 2026 Spanish-language World Schools Debating Championship (MED) in Panama. Peru won its fourth title in an all-Peruvian final. ([Andina](https://andina.pe/agencia/noticia-peru-se-corona-tetracampeon-el-mundial-debate-escolar-espanol-2026-1091241.aspx))
+
 **Research Assistant**, Political Science Dept., Davidson College · May – Dec 2025
 
 **Intern**, International Student Engagement, Davidson College · Apr – Aug 2025
@@ -47,6 +50,7 @@ redirect_from:
 
 ## Awards
 
+- World champion team (as coach), Spanish-language World Schools Debating Championship (MED), Panama (2026)
 - Harris Proctor Award, Davidson Political Science Department (2025)
 - High Honors in Political Science, Davidson College (2025)
 - Davidson Research Initiative grant, $4,000

@@ -15,6 +15,8 @@ Soy politólogo peruano y trabajo en **acceso a la educación y políticas públ
     <p>B.A. en Ciencia Política y Estudios de Género, <em>magna cum laude</em>. Mi tesis con honores estudió cómo partidos e intereses privados capturaron instituciones democráticas en el Perú. Premio Harris Proctor, 2025.</p>
     <p class="more"><a href="/es/investigacion/">Investigación →</a></p>
   </div>
+
+**Reciente:** Entrené al equipo "Parque Nacional Huascarán", campeón del Mundial Escolar de Debate en Español (MED) 2026 en Panamá.
   <div class="home-card">
     <p class="kicker">Beca Cometa · desde jul. 2026</p>
     <h3>Junior College Advisor</h3>

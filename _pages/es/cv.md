@@ -24,6 +24,9 @@ author_profile: true
 - Convocatoria 2027: más de 1,530 postulaciones de todas las regiones del Perú.
 - Convocatoria 2026: más de 600 postulaciones y más de 60 evaluadores voluntarios reclutados, capacitados y supervisados. El proceso resultó en 6 becas, 5 de ellas con financiamiento completo.
 
+**Entrenador de Debate**, Selección Nacional de Debate Escolar del Perú (LPDE) · 2026
+- Entrené al equipo "Parque Nacional Huascarán", **campeón mundial** del Mundial Escolar de Debate en Español (MED) 2026 en Panamá. El Perú ganó su cuarto título en una final íntegramente peruana. ([Andina](https://andina.pe/agencia/noticia-peru-se-corona-tetracampeon-el-mundial-debate-escolar-espanol-2026-1091241.aspx))
+
 **Asistente de Investigación**, Departamento de Ciencia Política, Davidson College · may. – dic. 2025
 
 **Pasante**, Oficina de Estudiantes Internacionales, Davidson College · abr. – ago. 2025
@@ -45,6 +48,7 @@ author_profile: true
 
 ## Reconocimientos
 
+- Equipo campeón mundial (como entrenador), Mundial Escolar de Debate en Español (MED), Panamá (2026)
 - Premio Harris Proctor, Departamento de Ciencia Política de Davidson (2025)
 - Altos Honores en Ciencia Política, Davidson College (2025)
 - Fondo de investigación Davidson Research Initiative, US$ 4,000

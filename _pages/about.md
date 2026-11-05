@@ -17,6 +17,8 @@ I’m a political scientist from Peru working on **education access and public p
     <p>B.A. in Political Science and Gender Studies, <em>magna cum laude</em>. My honors thesis studied how parties and private interests captured Peru’s democratic institutions. Harris Proctor Award, 2025.</p>
     <p class="more"><a href="/research/">Research →</a></p>
   </div>
+
+**Latest:** I coached team "Parque Nacional Huascarán", the 2026 world champion of the Spanish-language World Schools Debating Championship (MED) in Panama.
   <div class="home-card">
     <p class="kicker">Beca Cometa · since Jul 2026</p>
     <h3>Junior College Advisor</h3>

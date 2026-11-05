@@ -49,3 +49,28 @@
   .home-card .more { margin-top:auto; font-size:.85em; }
   @media (max-width: 700px) { .home-grid { grid-template-columns:1fr; } }
 </style>
+<!-- Visual identity: navy + white, inspired by UWC, kept simple -->
+<style>
+  :root { --navy:#003A70; --blue:#0079C1; --ink:#1f2933; --line:#d9e2ec; }
+  html, body { background:#fff !important; color:var(--ink) !important; }
+  .masthead { background:var(--navy) !important; border-bottom:0 !important; }
+  .masthead a, .masthead span, .greedy-nav a, .greedy-nav .lang-current { color:#fff !important; }
+  .greedy-nav .visible-links a:before { background:#fff !important; }
+  .greedy-nav button .navicon, .greedy-nav button .navicon:before, .greedy-nav button .navicon:after { background:#fff !important; }
+  .greedy-nav .hidden-links { background:#fff !important; border-color:var(--line) !important; }
+  .greedy-nav .hidden-links a { color:var(--navy) !important; }
+  .greedy-nav, .masthead__inner-wrap { background:var(--navy) !important; }
+  a { color:var(--navy); }
+  a:hover { color:var(--blue); }
+  .page__content a, .archive a { color:var(--navy) !important; text-decoration-color:rgba(0,58,112,.35); }
+  h1, h2, h3, .page__title, .author__name { color:var(--navy) !important; }
+  .page__content h2 { border-bottom:2px solid var(--line) !important; }
+  .home-card, .project-card { background:#fff !important; border:1px solid var(--line) !important; border-top:3px solid var(--navy) !important; }
+  .home-card .kicker, .project-card .kicker { color:var(--blue) !important; opacity:1 !important; font-weight:600; }
+  .author__avatar img { border-color:var(--line) !important; }
+  .author__urls a, .author__urls li { color:var(--ink) !important; }
+  .author__urls i { color:var(--navy) !important; }
+  .page__footer { background:#f5f8fb !important; color:#52606d !important; border-top:1px solid var(--line) !important; }
+  .page__footer a { color:var(--navy) !important; }
+  .btn--inverse { color:var(--navy) !important; border-color:var(--navy) !important; background:#fff !important; }
+</style>
