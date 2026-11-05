@@ -233,7 +233,7 @@
     update(); setTimeout(update, 300);
   });
 </script>
-{% if page.permalink == '/' or page.permalink == '/es/' %}<script type="module" src="{{ base_path }}/assets/js/world-map.js"></script>{% endif %}
+{% if page.permalink == '/' or page.permalink == '/es/' %}<script type="module" src="{{ base_path }}/assets/js/world-map.js?v={{ site.time | date: '%s' }}"></script>{% endif %}
 <style>
   #about .home-card, #about .home-card p { color: var(--ink) !important; }
   #about .home-card strong { color: inherit !important; }
