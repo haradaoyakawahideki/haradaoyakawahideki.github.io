@@ -1,0 +1,85 @@
+<!doctype html>
+{% include base_path %}
+{% assign L = page.lang | default: "en" %}{% assign T = site.data.ui[L] %}
+<html lang="{{ L }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.author.name }} · {{ T.tagline }}</title>
+  <meta name="description" content="{{ T.tagline }}">
+  <meta property="og:title" content="{{ site.author.name }}">
+  <meta property="og:description" content="{{ T.tagline }}">
+  <meta property="og:image" content="{{ site.url }}/images/{{ site.author.avatar }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="{% if L == 'es' %}en{% else %}es{% endif %}" href="{{ site.url }}{{ page.alt_url }}">
+  <link rel="icon" href="{{ base_path }}/images/favicon.ico">
+  <script>
+    // Theme before paint
+    (function(){try{var t=localStorage.getItem('theme');if(!t||t==='system'){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}
+      if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();
+    // Language: Spanish browsers go to /es/ on first visit; ES/EN clicks are remembered
+    (function(){try{var K='site-lang';document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[data-lang]');
+      if(a){localStorage.setItem(K,a.getAttribute('data-lang'));if(location.hash)a.href=a.href.split('#')[0]+location.hash;}},true);
+      if(localStorage.getItem(K))return;if(location.pathname!=='/'&&location.pathname!=='/index.html')return;
+      var l=(navigator.languages||[navigator.language||''])[0]||'';if(l.toLowerCase().indexOf('es')===0){localStorage.setItem(K,'es');location.replace('/es/');}}catch(e){}})();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:wght@500;600&display=swap">
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css">
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/slides.css?v={{ site.time | date: '%s' }}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#about">
+      <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+      <span><strong>{{ site.author.name }}</strong><small>{{ T.tagline }}</small></span>
+    </a>
+    <nav class="menu" aria-label="Sections">
+      {% for k in site.data.slides_order %}{% unless k == 'about' %}<a href="#{{ k }}" data-target="{{ k }}">{{ T.sections[k] }}</a>{% endunless %}{% endfor %}
+    </nav>
+    <div class="tools">
+      <a class="icon" href="mailto:{{ site.author.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <a class="icon" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a class="icon" href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <span class="lang">{% if L == 'es' %}<b>ES</b><a href="{{ base_path }}{{ page.alt_url }}" data-lang="en" hreflang="en">EN</a>{% else %}<a href="{{ base_path }}{{ page.alt_url }}" data-lang="es" hreflang="es">ES</a><b>EN</b>{% endif %}</span>
+      <button class="icon theme" type="button" aria-label="{{ T.theme }}"><i class="fas fa-moon"></i></button>
+    </div>
+  </header>
+
+  <nav class="dots" aria-hidden="true">
+    {% for k in site.data.slides_order %}<a href="#{{ k }}" data-target="{{ k }}"><span>{{ T.sections[k] }}</span></a>{% endfor %}
+  </nav>
+
+  <main class="deck">
+    {% for k in site.data.slides_order %}
+    <section class="slide slide--{{ k }}" id="{{ k }}">
+      <div class="slide__inner">
+        {% if k == 'about' %}
+          <div class="hero">
+            <div class="hero__text reveal">
+              <p class="eyebrow">{{ site.author.location }}</p>
+              <h1>{{ site.author.name }}</h1>
+              {% capture c %}{% include sections/{{ L }}/about.md %}{% endcapture %}
+              <div class="hero__body">{{ c | markdownify }}</div>
+            </div>
+            <img class="hero__photo reveal" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+          </div>
+          <a class="scroll-cue" href="#map">{{ T.scroll }} <i class="fas fa-arrow-down"></i></a>
+        {% else %}
+          <p class="eyebrow reveal">0{{ forloop.index0 }} — {{ T.sections[k] }}</p>
+          <h2 class="reveal">{{ T.titles[k] }}</h2>
+          <div class="slide__body reveal">
+          {% if k == 'map' %}{% include sections/map.html lang=L %}
+          {% else %}{% capture c %}{% include sections/{{ L }}/{{ k }}.md %}{% endcapture %}{{ c | markdownify }}{% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </section>
+    {% endfor %}
+    <footer class="foot">© {{ site.time | date: '%Y' }} {{ site.author.name }} · <a href="https://github.com/{{ site.repository }}">Source</a></footer>
+  </main>
+
+  <script src="{{ base_path }}/assets/js/slides.js?v={{ site.time | date: '%s' }}" data-prev="{{ T.prev }}" data-next="{{ T.next }}"></script>
+  <script type="module" src="{{ base_path }}/assets/js/world-map.js?v={{ site.time | date: '%s' }}"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 Soy politólogo peruano y trabajo en **acceso a la educación y políticas públicas**. Acompaño a estudiantes talentosos de familias de bajos recursos en su camino a la educación superior, y uso investigación y datos para entender quién accede a las oportunidades y por qué.
 
-<a class="btn btn--primary" href="/files/CV_Hideki_Harada_ES.pdf">Descargar mi CV (PDF)</a>
+<a class="btn btn--primary" href="/files/CV_Hideki_Harada_ES.pdf" target="_blank" rel="noopener">Descargar mi CV (PDF)</a>
 
 <div class="home-grid">
   <div class="home-card">

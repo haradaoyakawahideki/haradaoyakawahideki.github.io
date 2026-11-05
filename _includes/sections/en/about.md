@@ -1,6 +1,6 @@
 I’m a political scientist from Peru working on **education access and public policy**. I help talented students from low-income families reach higher education, and I use research and data to understand who gets access to opportunity, and why.
 
-<a class="btn btn--primary" href="/files/CV_Hideki_Harada_EN.pdf">Download my CV (PDF)</a>
+<a class="btn btn--primary" href="/files/CV_Hideki_Harada_EN.pdf" target="_blank" rel="noopener">Download my CV (PDF)</a>
 
 <div class="home-grid">
   <div class="home-card">

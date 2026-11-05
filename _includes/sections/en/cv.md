@@ -1,5 +1,5 @@
-<a class="btn btn--primary" href="/files/CV_Hideki_Harada_EN.pdf">PDF</a> <a class="btn btn--inverse" href="/files/CV_Hideki_Harada_EN.docx">Word</a> <a class="btn btn--inverse" href="/files/CV_Hideki_Harada_EN.tex">LaTeX</a>
-<small>CV en español: <a href="/files/CV_Hideki_Harada_ES.pdf">PDF</a> · <a href="/files/CV_Hideki_Harada_ES.docx">Word</a> · <a href="/files/CV_Hideki_Harada_ES.tex">LaTeX</a></small>
+<a class="btn btn--primary" href="/files/CV_Hideki_Harada_EN.pdf" target="_blank" rel="noopener">PDF</a> <a class="btn btn--inverse" href="/files/CV_Hideki_Harada_EN.docx">Word</a> <a class="btn btn--inverse" href="/files/CV_Hideki_Harada_EN.tex">LaTeX</a>
+<small>CV en español: <a href="/files/CV_Hideki_Harada_ES.pdf" target="_blank" rel="noopener">PDF</a> · <a href="/files/CV_Hideki_Harada_ES.docx">Word</a> · <a href="/files/CV_Hideki_Harada_ES.tex">LaTeX</a></small>
 
 ### Education
 

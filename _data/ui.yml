@@ -1,0 +1,16 @@
+en:
+  tagline: "Political scientist · Education & public policy"
+  sections: { about: "About", map: "Map", news: "News", research: "Research", projects: "Projects", cv: "CV" }
+  titles: { map: "Where I have studied and traveled", news: "What I've been up to", research: "Research", projects: "Data projects", cv: "Curriculum vitae" }
+  scroll: "Scroll"
+  prev: "Previous"
+  next: "Next"
+  theme: "Toggle dark mode"
+es:
+  tagline: "Politólogo · Educación y políticas públicas"
+  sections: { about: "Inicio", map: "Mapa", news: "Noticias", research: "Investigación", projects: "Proyectos", cv: "CV" }
+  titles: { map: "Dónde he estudiado y viajado", news: "En qué ando", research: "Investigación", projects: "Proyectos de datos", cv: "Currículum" }
+  scroll: "Desliza"
+  prev: "Anterior"
+  next: "Siguiente"
+  theme: "Cambiar modo oscuro"
