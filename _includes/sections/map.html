@@ -1,15 +1,23 @@
 {% assign L = include.lang %}
 <div class="world-map" data-lang="{{ L }}">
-  <div class="world-map__canvas"><svg role="img" aria-label="{% if L == 'es' %}Mapa de países donde he estudiado y que he visitado{% else %}Map of countries where I have studied and visited{% endif %}"></svg>
-    <div class="world-map__tip" hidden></div>
-    <div class="world-map__legend">
-      <span><i class="dot dot--studied"></i>{% if L == 'es' %}Estudié aquí{% else %}Studied here{% endif %}</span>
-      <span><i class="dot dot--visited"></i>{% if L == 'es' %}Visitado{% else %}Visited{% endif %}</span>
+  <div class="world-map__canvas">
+    <svg role="img" aria-label="{% if L == 'es' %}Mapa de países donde he estudiado y que he visitado{% else %}Map of countries where I have studied and visited{% endif %}"></svg>
+    <div class="world-map__zoom">
+      <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
+      <button type="button" data-zoom="out" aria-label="Zoom out">−</button>
+      <button type="button" data-zoom="reset" aria-label="{% if L == 'es' %}Restablecer{% else %}Reset{% endif %}">⟲</button>
     </div>
+    <div class="world-map__tip" hidden></div>
+  </div>
+  <div class="world-map__legend">
+    <span><i class="dot dot--studied"></i>{% if L == 'es' %}Estudié aquí{% else %}Studied here{% endif %}</span>
+    <span><i class="dot dot--sas"></i>Semester at Sea 2024 <i class="route-key"></i></span>
+    <span><i class="dot dot--visited"></i>{% if L == 'es' %}Visitado{% else %}Visited{% endif %}</span>
+    <span class="world-map__count"></span>
   </div>
   <aside class="world-map__card" aria-live="polite">
     <p class="kicker">{% if L == 'es' %}Haz clic en un país{% else %}Click a country{% endif %}</p>
-    <p class="world-map__hint">{% if L == 'es' %}Los países en azul oscuro muestran dónde estudié.{% else %}Dark blue countries show where I studied.{% endif %}</p>
+    <p class="world-map__hint">{% if L == 'es' %}Usa + y − o arrastra el mapa para acercarte. Los países resaltados muestran dónde estudié y viajé.{% else %}Use + and − or drag the map to zoom in. Highlighted countries show where I studied and traveled.{% endif %}</p>
   </aside>
 </div>
 <script type="application/json" class="world-map__data">{{ site.data.places | jsonify }}</script>

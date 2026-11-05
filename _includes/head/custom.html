@@ -239,3 +239,27 @@
   #about .home-card strong { color: inherit !important; }
   html[data-theme="dark"] #about .home-card, html[data-theme="dark"] #about .home-card p { color: #e6edf5 !important; }
 </style>
+<style>
+  /* Map v2: full width, card below, zoom, route */
+  .world-map { display:block !important; }
+  .world-map__canvas { padding:0 !important; overflow:hidden; cursor:grab; background:#e6eff8 !important; }
+  .world-map__canvas:active { cursor:grabbing; }
+  .world-map .sphere { fill:#e6eff8; stroke:#c9d8e8; }
+  .country--sas { fill:#3f8fd0; cursor:pointer; }
+  .sas-route { fill:none; stroke:#f0a020; stroke-width:1.6; stroke-dasharray:4 3; pointer-events:none; }
+  .sas-port { fill:#fff; stroke:#f0a020; stroke-width:1; pointer-events:none; }
+  .world-map__zoom { position:absolute; right:10px; top:10px; display:flex; flex-direction:column; gap:4px; }
+  .world-map__zoom button { width:32px; height:32px; border-radius:8px; border:1px solid var(--line); background:#fff; color:var(--navy);
+                            font-size:18px; line-height:1; cursor:pointer; box-shadow:0 1px 3px rgba(0,0,0,.1); }
+  .world-map__zoom button:hover { background:var(--navy); color:#fff; }
+  .world-map__legend { flex-wrap:wrap; margin:.7em 0 .9em !important; font-size:.8em !important; }
+  .world-map__count { margin-left:auto; font-weight:600; color:var(--navy); }
+  .dot--sas { background:#3f8fd0; } .dot--visited { background:#a9d0ee !important; } .country--visited { fill:#a9d0ee !important; }
+  .route-key { display:inline-block; width:22px; border-top:2px dashed #f0a020; vertical-align:middle; margin-left:.3em; }
+  .world-map__card { min-height:0 !important; }
+  html[data-theme="dark"] .world-map .sphere { fill:#0b1a2b; stroke:#24405e; }
+  html[data-theme="dark"] .world-map__canvas { background:#0b1a2b !important; }
+  html[data-theme="dark"] .country--sas { fill:#2f78b5; } html[data-theme="dark"] .country--visited { fill:#24557f !important; }
+  html[data-theme="dark"] .world-map__zoom button { background:#12263d; color:#fff; border-color:#24405e; }
+  html[data-theme="dark"] .world-map__count { color:#8cc8f0; }
+</style>

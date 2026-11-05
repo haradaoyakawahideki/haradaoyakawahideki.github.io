@@ -26,3 +26,71 @@
   type: visited
   name: { en: "Panama", es: "Panamá" }
   note: { en: "Coach at the 2026 Spanish-language World Schools Debating Championship (MED)", es: "Entrenador en el Mundial Escolar de Debate en Español (MED) 2026" }
+- id: "764"
+  type: sas
+  name: { en: "Thailand", es: "Tailandia" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Bangkok, Jan 5, 2024 (embarkation)", es: "Semester at Sea, primavera 2024 · Puerto de Bangkok, 5 de enero de 2024 (embarque)" }
+- id: "458"
+  type: sas
+  name: { en: "Malaysia", es: "Malasia" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Penang, Jan 11–16, 2024", es: "Semester at Sea, primavera 2024 · Puerto de Penang, 11–16 de enero de 2024" }
+- id: "356"
+  type: sas
+  name: { en: "India", es: "India" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Kochi, Jan 25–30, 2024", es: "Semester at Sea, primavera 2024 · Puerto de Kochi, 25–30 de enero de 2024" }
+- id: "404"
+  type: sas
+  name: { en: "Kenya", es: "Kenia" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Mombasa, Feb 9–14, 2024", es: "Semester at Sea, primavera 2024 · Puerto de Mombasa, 9–14 de febrero de 2024" }
+- id: "508"
+  type: sas
+  name: { en: "Mozambique", es: "Mozambique" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Maputo, Feb 23–25, 2024", es: "Semester at Sea, primavera 2024 · Puerto de Maputo, 23–25 de febrero de 2024" }
+- id: "710"
+  type: sas
+  name: { en: "South Africa", es: "Sudáfrica" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Cape Town, Mar 2–9, 2024", es: "Semester at Sea, primavera 2024 · Puerto de Ciudad del Cabo, 2–9 de marzo de 2024" }
+- id: "288"
+  type: sas
+  name: { en: "Ghana", es: "Ghana" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Tema & Takoradi, Mar 17–22, 2024", es: "Semester at Sea, primavera 2024 · Puerto de Tema y Takoradi, 17–22 de marzo de 2024" }
+- id: "504"
+  type: sas
+  name: { en: "Morocco", es: "Marruecos" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Tangier, Apr 2–7, 2024", es: "Semester at Sea, primavera 2024 · Puerto de Tánger, 2–7 de abril de 2024" }
+- id: "620"
+  type: sas
+  name: { en: "Portugal", es: "Portugal" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Porto, Apr 10–13, 2024", es: "Semester at Sea, primavera 2024 · Puerto de Oporto, 10–13 de abril de 2024" }
+- id: "276"
+  type: sas
+  name: { en: "Germany", es: "Alemania" }
+  items:
+    - { en: "Semester at Sea, Spring 2024 · Port of Bremerhaven, Apr 20, 2024 (disembarkation)", es: "Semester at Sea, primavera 2024 · Puerto de Bremerhaven, 20 de abril de 2024 (desembarque)" }
+- id: "484"
+  type: visited
+  name: { en: "Mexico", es: "México" }
+- id: "724"
+  type: visited
+  name: { en: "Spain", es: "España" }
+- id: "020"
+  type: visited
+  name: { en: "Andorra", es: "Andorra" }
+- id: "203"
+  type: visited
+  name: { en: "Czech Republic", es: "República Checa" }
+- id: "300"
+  type: visited
+  name: { en: "Greece", es: "Grecia" }
+- id: "616"
+  type: visited
+  name: { en: "Poland", es: "Polonia" }
