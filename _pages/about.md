@@ -8,19 +8,31 @@ redirect_from:
   - /about/
 ---
 
-I'm a political scientist working at the intersection of **education and public policy** in Peru. I help talented students from low-income families reach higher education. I also use data and fieldwork to understand who gets access to opportunity, and why.
+I’m a political scientist from Peru working on **education access and public policy**. I help talented students from low-income families reach higher education, and I use research and data to understand who gets access to opportunity, and why.
 
-Today I'm a **Junior College Advisor at [Beca Cometa](https://www.becacometa.com)**, guiding high-achieving, low-income Peruvian students through U.S. admissions as international applicants. I'm also **National Selection Officer at UWC Peru**, where I lead the national scholarship selection process. Its 2027 cycle received over 1,530 applications from every region of the country.
-
-I graduated from **Davidson College** (B.A. in Political Science and Gender Studies, *magna cum laude*) with **High Honors** for a thesis on how parties and private interests captured Peru's democratic institutions, including higher-education regulation. I'm currently studying data science for the social sciences and public management at **PUCP**.
-
-**Interests:** education policy and access · institutional reform · legislative politics · regulatory capture · inequality in Latin America.
-
-## Highlights
-
-- **High Honors in Political Science** and the **Harris Proctor Award**, Davidson College (2025)
-- **First place, Impactathon 2024**, a public-policy hackathon by Impacta and PUCP
-- **6 UWC scholarships** in the 2026 selection cycle, 5 of them fully funded
-- **55 students** supported with their U.S. financial-aid applications at Beca Cometa
-
-[See my projects →](/portfolio/) · [Research →](/research/) · [CV →](/cv/)
+<div class="home-grid">
+  <div class="home-card">
+    <p class="kicker">Political Science</p>
+    <h3>Davidson College · High Honors</h3>
+    <p>B.A. in Political Science and Gender Studies, <em>magna cum laude</em>. My honors thesis studied how parties and private interests captured Peru’s democratic institutions. Harris Proctor Award, 2025.</p>
+    <p class="more"><a href="/research/">Research →</a></p>
+  </div>
+  <div class="home-card">
+    <p class="kicker">Beca Cometa · since Jul 2026</p>
+    <h3>Junior College Advisor</h3>
+    <p>I guide high-achieving, low-income Peruvian students through U.S. admissions as international applicants. So far I have supported 55 students with their financial-aid applications.</p>
+    <p class="more"><a href="https://www.becacometa.com">About Beca Cometa →</a></p>
+  </div>
+  <div class="home-card">
+    <p class="kicker">UWC Peru · since Oct 2025</p>
+    <h3>National Selection Officer</h3>
+    <p>I lead and improve the five-stage national scholarship selection process. 2026 cycle: 6 scholarships, 5 fully funded. 2027 cycle: 1,530+ applications from every region.</p>
+    <p class="more"><a href="/cv/">Experience →</a></p>
+  </div>
+  <div class="home-card">
+    <p class="kicker">PUCP · Q-Lab · 2026–2027</p>
+    <h3>Data Science for Social Sciences &amp; Public Management</h3>
+    <p>A diploma in programming, AI and causal inference for public policy. I apply it to poverty and inequality data from Peru.</p>
+    <p class="more"><a href="/portfolio/">See my projects →</a></p>
+  </div>
+</div>
