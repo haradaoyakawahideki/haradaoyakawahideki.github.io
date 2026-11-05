@@ -111,27 +111,9 @@ html[data-theme="dark"] .topbar{background:rgba(0,30,58,.9)}
 .news-card p:last-child,.project-card p:last-child{margin-top:auto; margin-bottom:0}
 .project-card img{width:100%; height:200px; object-fit:cover; object-position:top; border-radius:12px; margin-bottom:1rem; background:#fff; border:1px solid var(--line)}
 
-/* Research: two columns */
-.slide--research .slide__body{display:grid; grid-template-columns:1.25fr 1fr; gap:0 3rem}
-.slide--research .slide__body > h3:first-child{grid-column:1}
-.slide--research .slide__body > *{grid-column:1}
-.slide--research .slide__body > h3:nth-of-type(n+2), .slide--research .slide__body > h3:nth-of-type(n+2) ~ *{grid-column:2}
-.slide--research .slide__body > h3:nth-of-type(n+2){grid-row:auto}
-.slide--research .slide__body h3:first-child + p{font-size:1.1rem}
-
 /* Projects demo */
 .slide--projects .slide__body > h3{margin-top:2rem}
 .slide--projects iframe{border-radius:14px}
-
-/* CV: compact two columns */
-.slide--cv .slide__body{columns:2 340px; column-gap:3rem}
-.slide--cv .slide__body > p:first-child{column-span:all; margin-bottom:1.2rem}
-.slide--cv .slide__body h3{break-after:avoid; margin-top:1.2rem; font-size:1.1rem; padding-bottom:.3rem; border-bottom:2px solid var(--line)}
-.slide--cv .slide__body > h3:first-of-type{margin-top:0}
-.slide--cv .slide__body p,.slide--cv .slide__body li{font-size:.88rem; break-inside:avoid}
-.slide--cv .slide__body ul{margin:.2rem 0 .7rem; padding-left:1.1rem}
-.slide--cv .slide__body p{margin:.7rem 0 .2rem}
-.slide--cv .slide__body small{column-span:all}
 
 /* Map */
 .world-map__canvas{position:relative; background:#e6eff8; border-radius:18px; overflow:hidden; cursor:grab; box-shadow:var(--shadow)}
@@ -185,3 +167,31 @@ html[data-theme="dark"] .dot--studied{background:#8cc8f0} html[data-theme="dark"
   .scroll-cue{display:none}
 }
 @media (max-width:520px){ .brand strong{font-size:.92rem} .icon{width:30px; height:30px} .tools .icon[aria-label="GitHub"]{display:none} }
+
+/* Tighter slides, top-aligned */
+.slide{padding-top:calc(var(--top) + 2.2rem); align-items:flex-start}
+.slide--about{align-items:center}
+.slide h2{margin-bottom:1.2rem}
+.hero__photo{align-self:start; margin-top:3rem; max-width:300px}
+
+/* Research: thesis feature + side column */
+.slide--research .has-blocks{display:grid; grid-template-columns:1.3fr 1fr; gap:1.4rem; align-items:start}
+.slide--research .block{background:var(--card); border:1px solid var(--line); border-radius:18px; padding:1.4rem 1.5rem; box-shadow:var(--shadow)}
+.slide--research .block h3{margin-top:0}
+.slide--research .block--1{grid-row:span 3; border-top:4px solid var(--accent)}
+.slide--research .block--1 strong:first-of-type{font-family:var(--serif); font-size:1.12rem; color:var(--navy)}
+html[data-theme="dark"] .slide--research .block--1 strong:first-of-type{color:#fff}
+.slide--research .block ul{padding-left:1.1rem; margin:0} .slide--research .block li{font-size:.92rem; margin-bottom:.5rem}
+.slide--research .block p{font-size:.95rem}
+
+/* CV: experience left, the rest right */
+.slide--cv .has-blocks{display:grid; grid-template-columns:1.35fr 1fr; grid-auto-flow:dense; gap:1.2rem 1.4rem; align-items:start}
+.slide--cv .block--lead{grid-column:1/-1}
+.slide--cv .block{background:var(--card); border:1px solid var(--line); border-radius:18px; padding:1.2rem 1.4rem; box-shadow:var(--shadow)}
+.slide--cv .block h3{margin:0 0 .6rem; font-size:1.1rem}
+.slide--cv .block--2{grid-column:1; grid-row:span 3}
+.slide--cv .block--1,.slide--cv .block--3,.slide--cv .block--4{grid-column:2}
+.slide--cv .block p,.slide--cv .block li{font-size:.86rem}
+.slide--cv .block p{margin:.75rem 0 .15rem} .slide--cv .block p:first-of-type{margin-top:0}
+.slide--cv .block ul{margin:.1rem 0 .4rem; padding-left:1.1rem}
+@media (max-width:900px){ .slide--research .has-blocks,.slide--cv .has-blocks{grid-template-columns:1fr} .slide--cv .block--2,.slide--cv .block--1,.slide--cv .block--3,.slide--cv .block--4{grid-column:1; grid-row:auto} .slide--research .block--1{grid-row:auto} .hero__photo{margin-top:0} }

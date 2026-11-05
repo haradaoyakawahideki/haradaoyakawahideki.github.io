@@ -18,6 +18,23 @@
   window.addEventListener('resize', update);
   update(); setTimeout(update, 250);
 
+  // Group a section's content into blocks by its h3 headings (for grid layouts)
+  function blocks(sel) {
+    var body = document.querySelector(sel + ' .slide__body'); if (!body) return;
+    var kids = [].slice.call(body.childNodes), cur = null, lead = document.createElement('div');
+    lead.className = 'block block--lead';
+    var out = [];
+    kids.forEach(function (n) {
+      if (n.nodeType === 1 && n.tagName === 'H3') { cur = document.createElement('div'); cur.className = 'block'; out.push(cur); }
+      (cur || lead).appendChild(n);
+    });
+    if (lead.childNodes.length) body.appendChild(lead);
+    out.forEach(function (b, i) { b.classList.add('block--' + (i + 1)); body.appendChild(b); });
+    body.classList.add('has-blocks');
+  }
+  blocks('.slide--research');
+  blocks('.slide--cv');
+
   // Carousels for news and projects
   function carousel(slideSel, itemSel) {
     var slide = document.querySelector(slideSel); if (!slide) return;
