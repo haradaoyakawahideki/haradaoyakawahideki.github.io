@@ -134,3 +134,35 @@
   .page__content a.btn--primary, .archive a.btn--primary { color:#fff !important; text-decoration:none !important; }
   html[data-theme="dark"] .page__content a.btn--primary, html[data-theme="dark"] .archive a.btn--primary { color:#0b1a2b !important; }
 </style>
+<!-- One-page layout: sections + scrolling menu -->
+<style>
+  html { scroll-behavior: smooth; }
+  .page-section { scroll-margin-top: 80px; padding-top: .5em; margin-bottom: 2.5em; }
+  .page-section + .page-section { border-top: 1px solid var(--line); padding-top: 1.5em; }
+  h2.section-title { font-size: 1.6em; border-bottom: 0 !important; margin-top: 0; }
+  .page__title { display:none; }
+  .greedy-nav .visible-links a.is-active { opacity:1; }
+  .greedy-nav .visible-links a.is-active:before { transform: scaleX(1) !important; }
+  @media (min-width: 1024px) { .sidebar.sticky { position: sticky !important; top: 80px !important; } }
+</style>
+<script>
+  // Highlight the menu item for the section currently on screen
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = [].slice.call(document.querySelectorAll('#site-nav a[href*="#"]'));
+    var map = {}; links.forEach(function (a) { map[a.getAttribute('href').split('#')[1]] = a; });
+    var obs = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) {
+        links.forEach(function (a) { a.classList.remove('is-active'); });
+        if (map[e.target.id]) map[e.target.id].classList.add('is-active');
+      } });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+    document.querySelectorAll('.page-section').forEach(function (s) { obs.observe(s); });
+  });
+</script>
+<script>
+  // Keep the current section when switching language
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[data-lang]');
+    if (a && location.hash) a.href = a.href.split('#')[0] + location.hash;
+  }, true);
+</script>

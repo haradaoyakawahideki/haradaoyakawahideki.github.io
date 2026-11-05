@@ -1,4 +1,4 @@
-"""Builds files/CV_Hideki_Harada_EN.pdf and _ES.pdf from _pages/cv.md and _pages/es/cv.md.
+"""Builds files/CV_Hideki_Harada_EN.pdf and _ES.pdf from _includes/sections/{en,es}/cv.md.
 Run: uv run --with markdown python scripts/make_cv_pdf.py"""
 import re, subprocess, pathlib, markdown
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -18,9 +18,10 @@ HEAD = {
  "en": ("Political scientist · Education and public policy · Lima, Peru", "Updated"),
  "es": ("Politólogo · Educación y políticas públicas · Lima, Perú", "Actualizado"),
 }
-for lang, src in [("en", "_pages/cv.md"), ("es", "_pages/es/cv.md")]:
+for lang, src in [("en", "_includes/sections/en/cv.md"), ("es", "_includes/sections/es/cv.md")]:
     md = (ROOT / src).read_text()
     md = re.sub(r"^---.*?---\s*", "", md, flags=re.S)
+    md = re.sub(r"(?m)^### ", "## ", md)
     md = re.sub(r"\{%.*?%\}", "", md)
     md = re.sub(r"(?m)^<(a|small)[^\n]*\n", "", md)  # drop download buttons/links
     md = re.sub(r"(?m)^  - ", "    - ", md)                 # nested bullets need 4 spaces
@@ -41,4 +42,6 @@ for lang, src in [("en", "_pages/cv.md"), ("es", "_pages/es/cv.md")]:
                     "--virtual-time-budget=8000", f"--print-to-pdf={out}", tmp.as_uri()], check=True,
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     tmp.unlink()
-    print(out)
+    pages = len(re.findall(rb"/Type\s*/Page[^s]", out.read_bytes()))
+    assert pages <= 2, f"{out.name} has {pages} pages; the CV must be 2 pages or fewer"
+    print(out, pages, "page(s)")

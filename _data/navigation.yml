@@ -1,20 +1,20 @@
-# Header links. "main" = English pages, "es" = Spanish pages.
+# Header menu: links scroll to sections of the one-page site.
 main:
   - title: "News"
-    url: /news/
+    url: /#news
   - title: "Research"
-    url: /research/
+    url: /#research
   - title: "Projects"
-    url: /portfolio/
+    url: /#projects
   - title: "CV"
-    url: /cv/
+    url: /#cv
 
 es:
   - title: "Noticias"
-    url: /es/noticias/
+    url: /es/#news
   - title: "Investigación"
-    url: /es/investigacion/
+    url: /es/#research
   - title: "Proyectos"
-    url: /es/proyectos/
+    url: /es/#projects
   - title: "CV"
-    url: /es/cv/
+    url: /es/#cv

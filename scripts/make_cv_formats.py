@@ -1,4 +1,4 @@
-"""Builds CV_Hideki_Harada_{EN,ES}.tex and .docx in files/ from _pages/cv.md and _pages/es/cv.md.
+"""Builds CV_Hideki_Harada_{EN,ES}.tex and .docx in files/ from _includes/sections/{en,es}/cv.md.
 Run: uv run --with python-docx python scripts/make_cv_formats.py"""
 import re, pathlib
 from docx import Document
@@ -24,7 +24,8 @@ def parse(src):
     blocks = []                                              # (kind, level, text)
     for line in md.splitlines():
         if not line.strip(): continue
-        if line.startswith("## "): blocks.append(("h", 0, line[3:].strip()))
+        if line.startswith("### "): blocks.append(("h", 0, line[4:].strip()))
+        elif line.startswith("## "): blocks.append(("h", 0, line[3:].strip()))
         elif re.match(r"^\s{2,}- ", line): blocks.append(("li", 1, line.strip()[2:]))
         elif line.startswith("- "): blocks.append(("li", 0, line[2:]))
         else: blocks.append(("p", 0, line.strip()))
@@ -126,7 +127,7 @@ def to_docx(lang, blocks, out):
     d.core_properties.author = "Hideki Harada Oyakawa"; d.core_properties.title = "CV – Hideki Harada Oyakawa"
     d.save(out)
 
-for lang, src in [("en", "_pages/cv.md"), ("es", "_pages/es/cv.md")]:
+for lang, src in [("en", "_includes/sections/en/cv.md"), ("es", "_includes/sections/es/cv.md")]:
     b = parse(src); base = ROOT / "files" / f"CV_Hideki_Harada_{lang.upper()}"
     base.with_suffix(".tex").write_text(to_tex(lang, b)); to_docx(lang, b, base.with_suffix(".docx"))
     print(base.with_suffix(".tex"), base.with_suffix(".docx"))
