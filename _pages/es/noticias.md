@@ -11,8 +11,8 @@ En qué ando, de lo más reciente a lo más antiguo.
 <div class="news-list">
   <div class="news-card">
     <p class="date">Octubre 2026</p>
-    <h3>Voluntario en el IV Torneo Descentralizado de Debate Puno 2026</h3>
-    <p>Participé como voluntario en el torneo descentralizado de la Liga Peruana de Debate Escolar en Juliaca, Puno, que lleva el debate escolar a estudiantes fuera de Lima. Incluyó talleres para docentes y estudiantes.</p>
+    <h3>Juez en el IV Torneo Descentralizado de Debate Puno 2026</h3>
+    <p>Participé como juez voluntario en los paneles del torneo descentralizado de la Liga Peruana de Debate Escolar en Juliaca, Puno, que lleva el debate escolar a estudiantes fuera de Lima.</p>
     <p><a href="https://www.instagram.com/lpdebate_org/p/DfBfygnllev/">Publicación de la LPDE →</a></p>
   </div>
   <div class="news-card">

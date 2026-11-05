@@ -26,8 +26,9 @@ author_profile: true
 - Convocatoria 2027: más de 1,530 postulaciones de todas las regiones del Perú.
 - Convocatoria 2026: más de 600 postulaciones y más de 60 evaluadores voluntarios reclutados, capacitados y supervisados. El proceso resultó en 6 becas, 5 de ellas con financiamiento completo.
 
-**Entrenador de Debate**, Selección Nacional de Debate Escolar del Perú (LPDE) · 2026
+**Entrenador y Juez de Debate**, Liga Peruana de Debate Escolar (LPDE) · 2026
 - Entrené al equipo "Parque Nacional Huascarán", **campeón mundial** del Mundial Escolar de Debate en Español (MED) 2026 en Panamá. El Perú ganó su cuarto título en una final íntegramente peruana. ([Andina](https://andina.pe/agencia/noticia-peru-se-corona-tetracampeon-el-mundial-debate-escolar-espanol-2026-1091241.aspx))
+- Juez voluntario en el IV Torneo Descentralizado de Debate Puno 2026 en Juliaca (oct. 2026).
 
 **Asistente de Investigación**, Departamento de Ciencia Política, Davidson College · may. – dic. 2025
 

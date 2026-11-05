@@ -11,8 +11,8 @@ What I've been up to, newest first.
 <div class="news-list">
   <div class="news-card">
     <p class="date">October 2026</p>
-    <h3>Volunteer at the IV Torneo Descentralizado de Debate Puno 2026</h3>
-    <p>I volunteered at the Liga Peruana de Debate Escolar's decentralized tournament in Juliaca, Puno, which brings school debate to students outside Lima. It included workshops for teachers and students.</p>
+    <h3>Judge at the IV Torneo Descentralizado de Debate Puno 2026</h3>
+    <p>I volunteered as a judge on the adjudication panels of the Liga Peruana de Debate Escolar's decentralized tournament in Juliaca, Puno, which brings school debate to students outside Lima.</p>
     <p><a href="https://www.instagram.com/lpdebate_org/p/DfBfygnllev/">LPDE post →</a></p>
   </div>
   <div class="news-card">
