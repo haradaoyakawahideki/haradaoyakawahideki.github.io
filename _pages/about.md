@@ -38,4 +38,4 @@ I’m a political scientist from Peru working on **education access and public p
   </div>
 </div>
 
-**Latest:** I coached team "Parque Nacional Huascarán", the 2026 world champion of the Spanish-language World Schools Debating Championship (MED) in Panama.
+**Latest:** I coached team “Parque Nacional Huascarán”, the 2026 world champion of the Spanish-language World Schools Debating Championship (MED) in Panama. [All news →](/news/)

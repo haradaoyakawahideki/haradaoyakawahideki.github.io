@@ -36,4 +36,4 @@ Soy politólogo peruano y trabajo en **acceso a la educación y políticas públ
   </div>
 </div>
 
-**Reciente:** Entrené al equipo "Parque Nacional Huascarán", campeón del Mundial Escolar de Debate en Español (MED) 2026 en Panamá.
+**Reciente:** Entrené al equipo “Parque Nacional Huascarán”, campeón del Mundial Escolar de Debate en Español (MED) 2026 en Panamá. [Todas las noticias →](/es/noticias/)

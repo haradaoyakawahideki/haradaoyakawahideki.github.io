@@ -117,3 +117,12 @@
   .greedy-nav .visible-links #theme-toggle a:before { display:none !important; }
   #theme-toggle i { color:#fff !important; }
 </style>
+<style>
+  .news-list { display:flex; flex-direction:column; gap:1em; margin-top:1em; }
+  .news-card { border:1px solid var(--line); border-left:4px solid var(--navy); border-radius:6px; padding:.9em 1.1em; background:#fff; }
+  .news-card .date { font-size:.72em; letter-spacing:.08em; text-transform:uppercase; color:var(--blue); font-weight:600; margin:0; }
+  .news-card h3 { margin:.2em 0 .35em; font-size:1.05em; }
+  .news-card p { margin:0 0 .4em; font-size:.9em; }
+  html[data-theme="dark"] .news-card { background:#12263d !important; border-color:var(--line) !important; border-left-color:#4fa3dd !important; }
+  html[data-theme="dark"] .news-card .date { color:#4fa3dd !important; }
+</style>

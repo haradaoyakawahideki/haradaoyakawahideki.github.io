@@ -1,5 +1,7 @@
 # Header links. "main" = English pages, "es" = Spanish pages.
 main:
+  - title: "News"
+    url: /news/
   - title: "Research"
     url: /research/
   - title: "Projects"
@@ -8,6 +10,8 @@ main:
     url: /cv/
 
 es:
+  - title: "Noticias"
+    url: /es/noticias/
   - title: "Investigación"
     url: /es/investigacion/
   - title: "Proyectos"
