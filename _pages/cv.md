@@ -51,7 +51,7 @@ redirect_from:
 ## Awards
 
 - World champion team (as coach), Spanish-language World Schools Debating Championship (MED), Panama (2026)
-- Harris Proctor Award, Davidson Political Science Department (2025)
+- J. Harris Proctor Award in Political Science, Davidson College (May 2026). Awarded each year since 1993 to outstanding senior political science majors.
 - High Honors in Political Science, Davidson College (2025)
 - Davidson Research Initiative grant, $4,000
 - First place (team), Impactathon 2024, a public-policy hackathon by Impacta and PUCP

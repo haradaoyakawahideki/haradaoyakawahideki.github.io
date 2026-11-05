@@ -14,7 +14,7 @@ I’m a political scientist from Peru working on **education access and public p
   <div class="home-card">
     <p class="kicker">Political Science</p>
     <h3>Davidson College · High Honors</h3>
-    <p>B.A. in Political Science and Gender Studies, <em>magna cum laude</em>. My honors thesis studied how parties and private interests captured Peru’s democratic institutions. Harris Proctor Award, 2025.</p>
+    <p>B.A. in Political Science and Gender Studies, <em>magna cum laude</em>. My honors thesis studied how parties and private interests captured Peru’s democratic institutions. J. Harris Proctor Award, 2026.</p>
     <p class="more"><a href="/research/">Research →</a></p>
   </div>
 

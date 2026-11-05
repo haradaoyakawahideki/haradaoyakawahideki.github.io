@@ -12,7 +12,7 @@ Soy politólogo peruano y trabajo en **acceso a la educación y políticas públ
   <div class="home-card">
     <p class="kicker">Ciencia Política</p>
     <h3>Davidson College · Altos Honores</h3>
-    <p>B.A. en Ciencia Política y Estudios de Género, <em>magna cum laude</em>. Mi tesis con honores estudió cómo partidos e intereses privados capturaron instituciones democráticas en el Perú. Premio Harris Proctor, 2025.</p>
+    <p>B.A. en Ciencia Política y Estudios de Género, <em>magna cum laude</em>. Mi tesis con honores estudió cómo partidos e intereses privados capturaron instituciones democráticas en el Perú. Premio J. Harris Proctor, 2026.</p>
     <p class="more"><a href="/es/investigacion/">Investigación →</a></p>
   </div>
 

@@ -49,7 +49,7 @@ author_profile: true
 ## Reconocimientos
 
 - Equipo campeón mundial (como entrenador), Mundial Escolar de Debate en Español (MED), Panamá (2026)
-- Premio Harris Proctor, Departamento de Ciencia Política de Davidson (2025)
+- Premio J. Harris Proctor en Ciencia Política, Davidson College (mayo 2026). Se otorga cada año desde 1993 a los estudiantes más destacados de la promoción en Ciencia Política.
 - Altos Honores en Ciencia Política, Davidson College (2025)
 - Fondo de investigación Davidson Research Initiative, US$ 4,000
 - Primer puesto (equipo), Impactathon 2024, hackatón de políticas públicas de Impacta y la PUCP
