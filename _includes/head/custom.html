@@ -52,7 +52,7 @@
 <!-- Visual identity: navy + white, inspired by UWC, kept simple -->
 <style>
   :root { --navy:#003A70; --blue:#0079C1; --ink:#1f2933; --line:#d9e2ec; }
-  html, body { background:#fff !important; color:var(--ink) !important; }
+  html:not([data-theme="dark"]), html:not([data-theme="dark"]) body { background:#fff !important; color:var(--ink) !important; }
   .masthead { background:var(--navy) !important; border-bottom:0 !important; }
   .masthead a, .masthead span, .greedy-nav a, .greedy-nav .lang-current { color:#fff !important; }
   .greedy-nav .visible-links a:before { background:#fff !important; }
@@ -77,4 +77,28 @@
 <style>
   .greedy-nav .visible-links, .greedy-nav .visible-links li, .greedy-nav ul, .masthead__menu { background:var(--navy) !important; }
   .greedy-nav .hidden-links, .greedy-nav .hidden-links li { background:#fff !important; }
+</style>
+<!-- Dark mode: same navy identity, darker surfaces -->
+<style>
+  html[data-theme="dark"] { --ink:#e6edf5; --line:#24405e; --navy-text:#8cc8f0; }
+  html[data-theme="dark"], html[data-theme="dark"] body { background:#0b1a2b !important; color:#e6edf5 !important; }
+  html[data-theme="dark"] .masthead, html[data-theme="dark"] .greedy-nav, html[data-theme="dark"] .masthead__inner-wrap,
+  html[data-theme="dark"] .greedy-nav .visible-links, html[data-theme="dark"] .greedy-nav .visible-links li,
+  html[data-theme="dark"] .masthead__menu { background:#002a52 !important; }
+  html[data-theme="dark"] .masthead { border-bottom:1px solid var(--line) !important; }
+  html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3,
+  html[data-theme="dark"] .page__title, html[data-theme="dark"] .author__name { color:#ffffff !important; }
+  html[data-theme="dark"] a, html[data-theme="dark"] .page__content a, html[data-theme="dark"] .archive a { color:var(--navy-text) !important; text-decoration-color:rgba(140,200,240,.4); }
+  html[data-theme="dark"] .masthead a, html[data-theme="dark"] .masthead span { color:#fff !important; }
+  html[data-theme="dark"] .home-card, html[data-theme="dark"] .project-card { background:#12263d !important; border-color:var(--line) !important; border-top:3px solid #4fa3dd !important; }
+  html[data-theme="dark"] .home-card .kicker, html[data-theme="dark"] .project-card .kicker { color:#4fa3dd !important; }
+  html[data-theme="dark"] .page__content h2 { border-bottom-color:var(--line) !important; }
+  html[data-theme="dark"] .author__urls a, html[data-theme="dark"] .author__urls li, html[data-theme="dark"] .author__bio { color:#c9d6e3 !important; }
+  html[data-theme="dark"] .author__urls i { color:#4fa3dd !important; }
+  html[data-theme="dark"] .page__footer { background:#081422 !important; color:#9fb3c8 !important; border-top-color:var(--line) !important; }
+  html[data-theme="dark"] .page__footer a { color:var(--navy-text) !important; }
+  html[data-theme="dark"] .btn--inverse { background:transparent !important; color:#fff !important; border-color:#4fa3dd !important; }
+  html[data-theme="dark"] .greedy-nav .hidden-links, html[data-theme="dark"] .greedy-nav .hidden-links li { background:#12263d !important; }
+  html[data-theme="dark"] .greedy-nav .hidden-links a { color:#fff !important; }
+  html[data-theme="dark"] .project-card img { background:#fff; }
 </style>

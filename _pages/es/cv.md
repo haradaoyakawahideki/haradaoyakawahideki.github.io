@@ -9,7 +9,7 @@ author_profile: true
 ## Educación
 
 - **PUCP, Q-Lab, Facultad de Ciencias Sociales.** Diplomatura de Especialización en Ciencia de Datos para las Ciencias Sociales y la Gestión Pública, ago. 2026 – may. 2027 (en curso)
-- **Davidson College**, Carolina del Norte, EE. UU. B.A. en Ciencia Política y Estudios de Género, 2021–2025. *Magna cum laude*, Altos Honores en Ciencia Política, becario UWC Davis.
+- **Davidson College**, Carolina del Norte, EE. UU. B.A. en Ciencia Política y Estudios de Género, 2021–2025 (grado conferido en mayo de 2026). *Magna cum laude*, Altos Honores en Ciencia Política, becario UWC Davis.
   - Intercambios: IES París (otoño 2023) · Semester at Sea, 10 países (primavera 2024)
 - **UWC Atlantic**, Gales, Reino Unido. Bachillerato Internacional, 2018–2020, becario UWC Davis.
 
@@ -50,7 +50,7 @@ author_profile: true
 
 - Equipo campeón mundial (como entrenador), Mundial Escolar de Debate en Español (MED), Panamá (2026)
 - Premio J. Harris Proctor en Ciencia Política, Davidson College (mayo 2026). Se otorga cada año desde 1993 a los estudiantes más destacados de la promoción en Ciencia Política.
-- Altos Honores en Ciencia Política, Davidson College (2025)
+- Altos Honores en Ciencia Política, Davidson College (mayo 2026)
 - Fondo de investigación Davidson Research Initiative, US$ 4,000
 - Primer puesto (equipo), Impactathon 2024, hackatón de políticas públicas de Impacta y la PUCP
 - Torneo Nacional de Debate Escolar, Perú (2015, 2016)

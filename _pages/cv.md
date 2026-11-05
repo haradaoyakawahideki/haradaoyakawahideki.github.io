@@ -11,7 +11,7 @@ redirect_from:
 ## Education
 
 - **PUCP, Q-Lab, Faculty of Social Sciences.** Diploma in Data Science for the Social Sciences and Public Management, Aug 2026 – May 2027 (in progress)
-- **Davidson College**, NC, USA. B.A. in Political Science and Gender Studies, 2021–2025. *Magna cum laude*, High Honors in Political Science, UWC Davis Scholar.
+- **Davidson College**, NC, USA. B.A. in Political Science and Gender Studies, 2021–2025 (degree conferred May 2026). *Magna cum laude*, High Honors in Political Science, UWC Davis Scholar.
   - Study abroad: IES Paris (Fall 2023) · Semester at Sea, 10 countries (Spring 2024)
 - **UWC Atlantic**, Wales, UK. International Baccalaureate Diploma, 2018–2020, UWC Davis Scholar.
 
@@ -52,7 +52,7 @@ redirect_from:
 
 - World champion team (as coach), Spanish-language World Schools Debating Championship (MED), Panama (2026)
 - J. Harris Proctor Award in Political Science, Davidson College (May 2026). Awarded each year since 1993 to outstanding senior political science majors.
-- High Honors in Political Science, Davidson College (2025)
+- High Honors in Political Science, Davidson College (May 2026)
 - Davidson Research Initiative grant, $4,000
 - First place (team), Impactathon 2024, a public-policy hackathon by Impacta and PUCP
 - National Schools Debate Tournament, Peru (2015, 2016)
